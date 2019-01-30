@@ -171,6 +171,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id nm-applet
 exec --no-startup-id compton
 exec --no-startup-id feh --no-fehbg --bg-fill ~/Pictures/background.png
+exec --no-startup-id ibus-daemon -dr
 
 new_window 1pixel
 
