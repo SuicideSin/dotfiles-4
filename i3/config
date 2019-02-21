@@ -30,7 +30,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 
-bindsym $mod+c exec chromium
+bindsym $mod+c exec firefox
 bindsym $mod+x exec pcmanfm
 
 # start a terminal
